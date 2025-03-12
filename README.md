@@ -49,7 +49,7 @@ Công cụ tự động giám sát dung lượng cơ sở dữ liệu Supabase c
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/Check-supabase-usage.git
+git clone https://github.com/huyduc1602/Check-supabase-usage.git
 
 # Cài đặt dependencies
 npm install
