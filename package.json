@@ -1,0 +1,29 @@
+{
+    "name": "check-supabase-usage",
+    "version": "1.0.0",
+    "description": "Tool to monitor Supabase database usage and send alerts when approaching free tier limits",
+    "main": "check_supabase_usage.js",
+    "scripts": {
+        "start": "node check_supabase_usage.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hoanghuyduc/Check-supabase-usage.git"
+    },
+    "keywords": [
+        "supabase",
+        "monitoring",
+        "database",
+        "usage",
+        "alert"
+    ],
+    "author": "Hoang Huy Duc",
+    "license": "MIT",
+    "dependencies": {
+        "node-fetch": "^2.6.7"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    }
+}
